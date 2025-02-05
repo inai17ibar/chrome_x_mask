@@ -1,0 +1,5 @@
+flask
+pytest<2
+requests
+sentencepiece
+protobuf 
