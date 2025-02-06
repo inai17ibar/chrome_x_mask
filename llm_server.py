@@ -5,7 +5,7 @@ import torch
 
 app = Flask(__name__)
 
-MODEL_NAME = "rinna/japanese-gpt-1b"
+MODEL_NAME = "elyza/ELYZA-japanese-Llama-2-7b-instruct"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, use_fast=False)
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_NAME,
